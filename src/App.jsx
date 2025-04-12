@@ -1,4 +1,6 @@
 import Card from './components/card';
+import Counter from './components/counter';
+import ToggleButton from './components/ToggleButton';
 import './App.css'
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
          <Card title={item} description={`These animal are ${item}`} />
       ))}
     </ul>
+    <Counter />
+    <ToggleButton />
   </div>);
 
   
